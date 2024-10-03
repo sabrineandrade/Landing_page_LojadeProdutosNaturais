@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+}
+
+#fundo {
+  background-image: url(./imagens/wepik-export-20230814235413AieZ.png);
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+  align-items: center;
+  padding: 50px;
+  margin-left: 350px;
+  z-index: 1;
+}
+
+#logo {
+  padding: 50px;
+  margin-left: 140px;
+}
+
+#operacao {
+  padding-top: 10px;
+  margin-left: 180px;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-weight: lighter;
+  text-shadow: 2px 2px 4px rgba(58, 58, 58, 0.5);
+}
+
+#fature {
+  font-family: "Borel";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+.destacado {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(32, 121, 32);
+  font-weight: bolder;
+}
+
+.destacado2 {
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+}
+
+.textoscomicones {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem 1rem;
+  justify-content: space-between;
+  max-width: 65%;
+  text-shadow: 2px 2px 4px rgba(78, 78, 78, 0.5);
+}
+
+button {
+  padding: 15px 15px;
+  margin-left: 325px;
+  margin-top: 30px;
+  background-color: rgb(32, 121, 32);
+  color: white;
+  font-weight: bolder;
+  border-radius: 20px;
+  width: 300px;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: translateY(-7px);
+}
+
+#segunda-parte {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#div-segunda {
+  padding: 80px;
+  margin-left: 300px;
+}
+
+#abra {
+  margin-top: 5px;
+  font-family: "Lato";
+  font-style: italic;
+  font-weight: 300;
+  font-weight: bold;
+  color: rgb(22, 83, 22);
+  font-size: 35px;
+}
+
+.produtos {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(22, 83, 22);
+}
+
+#empresaria1 {
+  position: absolute;
+  margin-left: 800px;
+  height: 525px;
+  z-index: 2;
+}
+
+#rede {
+  font-family: "Lato";
+  font-style: italic;
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 4px rgba(78, 78, 78, 0.479);
+}
+
+#baixo-custo {
+  font-family: "Lato";
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 4px rgba(78, 78, 78, 0.315);
+}
+
+.investimento {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+}
+
+#franqueado {
+  padding: 15px 15px;
+  margin-left: 325px;
+  margin-top: 30px;
+  background-color: rgb(32, 121, 32);
+  color: white;
+  font-weight: bolder;
+  border-radius: 20px;
+  width: 350px;
+  cursor: pointer;
+}
+
+.feedback {
+  background-color: rgb(59, 95, 59);
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+}
+
+#feedback3 {
+  display: none;
+}
+
+#formulario {
+  background-image: url("./imagens/formulario.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+
+#formulario2 {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  padding: 25px 45px;
+  padding-top: 30px;
+  margin-left: 730px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(59, 95, 59);
+  font-weight: bolder;
+  border-radius: 20px;
+  width: 325px;
+  text-shadow: 2px 2px 4px rgba(94, 94, 94, 0.062);
+}
+
+input {
+  width: 300px;
+  height: 40px;
+  background-color: #eaece5;
+  margin: 15px;
+  border: 0px;
+  border-radius: 5px;
+}
+
+#enviar {
+  margin-bottom: 50px;
+  margin-left: 5px;
+  width: 300px;
+}
