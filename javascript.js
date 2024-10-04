@@ -20,6 +20,14 @@ function rolarparaesquerda() {
   setadireita.style = "display: flex";
 }
 
+function dadosenviados() {
+  alert("Dados enviados com sucesso!");
+}
+
+document.getElementById("formulario2").onsubmit = function () {
+  dadosenviados();
+};
+
 ScrollReveal().reveal("#formulario");
 ScrollReveal().reveal(".feedback");
 ScrollReveal().reveal("#segunda-parte");
